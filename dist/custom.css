@@ -1,0 +1,47 @@
+.dude li:hover , .vro:hover{
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-clip: text;
+  color: transparent;
+}
+
+.ok {
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-clip: text;
+  color: transparent;
+}
+
+.background-card{
+  background-color: hsla(0, 0%, 100%, .05);
+  border: 1px solid hsla(0, 0%, 51%, .25);
+}
+
+.footer-ha{
+  background-position: 50%;
+  background-size: cover;
+}
+
+*{
+  scrollbar-color: #db00d9 #fff;
+  scrollbar-width: thin;
+}
+
+.navbar-color{
+  background-color: #130749;
+}
+
+.navbarbar-customColor{
+  background-color: #0f051d;
+}
+
+.annimation{
+  animation: move 2s infinite;
+}
+
+@keyframes move{
+  0% , 100%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-20px);
+  }
+}
